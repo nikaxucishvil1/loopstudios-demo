@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-top: 2.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+    width: 600px;
+}
+.nav{
+    width: 500px;
+}
+.listhead{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: alata;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.conainer_1{
+    background-image: url(./img/Bitmap.png);
+    height: 650px;
+    background-color: white;
+    
+}
+.spandiv_1{
+    color: white;
+    font-family: Josefin Sans;
+    width: 600px;
+    padding: 2%;
+    border: 2px solid #ffff;
+    font-size: 72px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.container_2{
+    display: flex;
+    padding: 5%;
+    padding-left: 10%;
+    
+}
+.img_2{
+    position: relative;
+}
+.spanh1div{
+    width: 450px;
+    height: 250px;
+    background-color: white;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 30%;
+    align-self: flex-end;
+    position: absolute;
+    margin-left: 39.5%;
+}
+.pmove_2{
+    font-size: 13px;
+    font-family: Alata;
+}
+.container_3{
+    margin-top: 10%;
+}
+.pdiv_1{
+    width: 380px;
+}
+button{
+    border: none;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;  
+    margin-right: -12%;
+}
+.footer_head{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20%;
+    padding-left: 10%;
+}
+.imgsdiv{
+    
+    height: 145vh;
+    padding-top: 5%;
+    padding-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 10%;
+    justify-content: space-around;
+
+}
+.container_4{
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    width: 100%;
+    background-color: black;
+}
+.footer_2{
+    display: flex;
+    justify-content: space-between;
+}
+.footerlist{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    font-family: Alata;
+}
+.footerlistmain{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.ftspan{
+    color: grey;
+    font-family: Alata;
+}
+.changeh11{
+    font-family: Josefin Sans;
+}
+.changebt1{
+    font-family: Alata;
+}
